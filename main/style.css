@@ -1,27 +1,22 @@
-@import url(http://fortune.com/static/media/SaolText-Bold.woff2);
-@import url(http://fortune.com/static/media/SaolText-Bold.woff2);
+@font-face {
+    font-family: "Saol";
+    src: url("./fonts/SaolText-Semibold.woff2") format("woff2"); /* Super Modern Browsers */
+}
 
 @font-face {
-    font-family: 'Saol';
-    src: url('./fonts/SaolText-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
-  }
+    font-family: "Graphik Condensed";
+    src: url("./fonts/GraphikCondensed-Semibold-Web.wofff2");
+}
 
-  @font-face {
-    font-family: 'Graphik Condensed';
-    src:
-      url('./fonts/GraphikCondensed-Semibold-Web.wofff2');
-  }
-  
-
-  nav {
-    font-family: Graphik Condensed,Helvetica,Verdana,sans-serif !important;
+nav {
+    font-family: Graphik Condensed, Helvetica, Verdana, sans-serif !important;
     font-weight: 500 !important;
     letter-spacing: 2px;
     line-height: 1.5rem;
-    margin-bottom: .625rem;
+    margin-bottom: 0.625rem;
     text-transform: uppercase;
-    transition: color .2s linear;
-  }
+    transition: color 0.2s linear;
+}
 
 * {
     margin: 0px;
@@ -34,8 +29,8 @@ body {
 }
 
 nav {
-    font-family: Graphik Condensed,Helvetica,Verdana,sans-serif;
-    font-size: .875rem;
+    font-family: Graphik Condensed, Helvetica, Verdana, sans-serif;
+    font-size: 0.875rem;
     font-weight: 500;
     align-items: center;
     text-decoration: dashed;
@@ -44,11 +39,8 @@ nav {
     width: 90%;
 }
 
-
-
 .nav-item {
-    font-family: Graphik Condensed,Helvetica,Verdana,sans-serif;
-
+    font-family: Graphik Condensed, Helvetica, Verdana, sans-serif;
 }
 
 header {
@@ -72,7 +64,6 @@ li {
     list-style-type: none;
 }
 
-
 h4 {
     font-size: 14px !important;
     margin-top: 10px !important;
@@ -86,7 +77,6 @@ h1 {
 }
 
 .navbar {
-
 }
 
 .logo {
@@ -249,12 +239,12 @@ div.img-article-top {
 
 .title {
     color: #000;
-    font-family: Saol Text,Helvetica,Verdana,sans-serif;
+    font-family: Saol Text, Helvetica, Verdana, sans-serif;
     font-size: 2.5rem;
     line-height: 2.625rem;
     font-weight: 600;
-    letter-spacing: .25px;
-    margin-bottom: .625rem;
+    letter-spacing: 0.25px;
+    margin-bottom: 0.625rem;
     overflow: hidden;
 }
 
@@ -263,50 +253,54 @@ div.img-article-top {
     padding-left: 20px !important;
 }
 
-
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     border-bottom: 1px solid #b2b2b2;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+}
 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
 
 @media (min-width: 1200px) {
     .container1 {
